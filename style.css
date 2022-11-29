@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.212)
+}
+
+.rightcolumn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border: 0.5px solid rgba(182, 182, 182, 0.87);
+    float: left;
+    width: 250px;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-top: 50px;
+    padding-left: 25px;
+    height: 125vh;
+    position: fixed;
+    text-decoration: none;
+}
+.rightcolumn .instheader{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 113px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+/* .right {
+    margin-top: 50px;
+    font-size: 18px;
+} */
+
+.rightcolumn .righthome{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.rightcolumn a{
+    text-decoration: none;
+    color: black;
+}
+
+.rightcolumn .righthome p {
+    margin-top: 25px;
+}
+
+.rightcolumn .rightsearch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.rightcolumn .rightsearch p {
+    margin-top: 25px;
+}
+
+.rightcolumn .rightmore {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+.rightcolumn .rightmore p {
+    margin-top: 25px;
+}
+
+
+main{
+    /* border: 1px solid black; */
+    width: 550px;
+    margin: 0 auto;
+}
+
+.leftcolumn {
+    border: 1px solid grey;
+    float: right;
+}
+main .msect1{
+    width: 470px;
+    height: 95px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* margin-top: 20px; */
+}
